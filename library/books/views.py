@@ -13,7 +13,7 @@ class BookListView(generics.ListAPIView):
     queryset = Book.objects.all()
     serializer_class = BookSerializer
     filter_backends = [DjangoFilterBackend]
-    filter = BookFilter
+    filterset_class = BookFilter
 
 
 class BookCreateView(generics.CreateAPIView):
