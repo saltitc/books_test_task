@@ -25,5 +25,5 @@ class BookDetailView(generics.RetrieveUpdateDestroyAPIView):
     With a PUT request, updates book information;
     With a DELETE request, deletes a book.
     """
-    queryset = Book.objects.all()
+    queryset = Book.objects.get(id=1)
     serializer_class = BookSerializer
