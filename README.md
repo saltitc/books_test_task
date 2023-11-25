@@ -5,7 +5,7 @@ This project was made as a test task
 
 ## Installation
 
-First, [install Docker](https://docs.docker.com/installation/). If you're new to Docker, you might also want to check out the [Hello, world! tutorial](https://docs.docker.com/userguide/dockerizing/).
+First, [install Docker](https://docs.docker.com/installation/).
 
 Next, open a terminal and clone this repo:
 
