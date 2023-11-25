@@ -46,12 +46,16 @@ EMAIL_USE_SSL=True
 >>   5. Email host user is your email address
 >>   6. Create an application password using this [link](https://id.yandex.ru/security/app-passwords)
 >>   7. Click on the highlighted block and create a password name:
->>   8. <img width="400" alt="Снимок экрана 2023-11-25 в 13 02 16" src="https://github.com/saltitc/books_test_task/assets/114296895/2b782f58-28fa-4b68-a5ca-b1e1952ecf40"> <img width="405" alt="image" src="https://github.com/saltitc/books_test_task/assets/114296895/16de9a4e-f3ab-40c2-9a27-35d49cba6662">
+>>   8. <img width="350" alt="Снимок экрана 2023-11-25 в 13 02 16" src="https://github.com/saltitc/books_test_task/assets/114296895/2b782f58-28fa-4b68-a5ca-b1e1952ecf40"> <img width="350" alt="image" src="https://github.com/saltitc/books_test_task/assets/114296895/16de9a4e-f3ab-40c2-9a27-35d49cba6662">
 >>   8. Copy the password and assign it to the EMAIL_HOST_PASSWORD variable in the .env file <img width="400" alt="Снимок экрана 2023-11-25 в 13 07 44" src="https://github.com/saltitc/books_test_task/assets/114296895/5dfeae0e-f0b1-400f-a127-0d5f903abb9a">
 
 Finally, enter the following command in the terminal in the folder from the cloned repository
 
     $ docker-compose up --build 
+
+When the application starts (lines will appear in the console as in the screenshot below), open the following [link](http://localhost:8000/) in your browser
+> <img width="400" alt="" src="https://github.com/saltitc/books_test_task/assets/114296895/452df3c7-5dcd-4412-b5b8-3964d6e47f91">
+
 
 > Errors
 >> If you have any errors during installation, write to me in [telegram](https://t.me/saltitc)
